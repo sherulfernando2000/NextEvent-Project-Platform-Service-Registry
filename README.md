@@ -2,9 +2,26 @@
 
 A service discovery server built on Netflix Eureka. All microservices register themselves here on startup, allowing the API Gateway and other services to locate them dynamically by name rather than hardcoded URLs.
 
-## About
+## 👤 Student Information
 
-This project is part of the Enterprise Cloud Application (ECA) module in the Higher Diploma in Software Engineering (HDSE) program at the Institute of Software Engineering (IJSE). It is intended exclusively for students enrolled in this program.
+- **Student Name:** Sherul Dhanushka Fernando
+- **Student Number:** 2301691014
+- **Slack Handle:** https://ijse-eca-hdse-69-70.slack.com/team/U0AEH8NS9DW
+- **GCP Project ID:** project-0ae0d75b-3979-4ebf-be9
+
+---
+
+## 📝 ABOUT
+
+The **Service-Registry** acts as the **"Directory"** of the NextEvent system.
+
+Instead of using hardcoded IP addresses or ports, all services register here and communicate using service names.
+
+This allows:
+
+- Dynamic service discovery
+- Loose coupling between microservices
+- Easier scaling and load balancing
 
 ## Tech Stack
 
